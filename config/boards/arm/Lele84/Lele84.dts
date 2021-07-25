@@ -8,8 +8,8 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix-transform.h>
 / {
-	model = "CYBER60_REV_B";
-	compatible = "cyber60", "Rev B";
+	model = "LELE84";
+	compatible = "Lele84";
 
 	chosen {
 		zephyr,code-partition = &code_partition;
