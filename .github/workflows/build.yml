@@ -50,7 +50,7 @@ jobs:
         uses: 'docker://zmkfirmware/zephyr-west-action-arm:latest'
         id: west-build-Lele84
         with:
-          args: 'build "-s zmk/app -b Lele84 -- -DZMK_CONFIG=/github/workspace/config"'
+          args: 'build "-s zmk/app -b Lele84 -- -DSHIELD=Lele84 -DZMK_CONFIG=/github/workspace/config"'
       - name: Archive (Lele84)
         uses: actions/upload-artifact@v2
         with:
