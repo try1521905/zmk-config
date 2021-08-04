@@ -1,9 +1,11 @@
 # Copyright (c) 2020 Stefan Sundin (4pplet)
 # SPDX-License-Identifier: MIT
 
+
+
 if BOARD_LELE84
 
-config ZMK_KEYBOARD_NAME
+config BOARD
 	default "Lele84"
 
 if USB
@@ -24,8 +26,14 @@ config ZMK_BLE
 
 config ZMK_USB
 	default y
+
+config PINMUX
+	default y
+
+config BOARD_NRFMICRO_CHARGER
+	default y
 	
 config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
 
-endif # BOARD_LELE84
+endif

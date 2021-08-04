@@ -1,2 +1,2 @@
-config LELE84_BOARD
+config SHIELD_LELE84
     def_bool $(shields_list_contains,Lele84)
