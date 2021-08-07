@@ -37,7 +37,7 @@
 &kp TAB  &kp Q  &kp W  &kp E  &reset  &kp T  &kp Y  &kp U  &kp   I   &out OUT_TOG  &bt BT_CLR  &kp LBKT &kp RBKT  &kp BSLH  &none                                                      &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_EFF  &none
 &kp CLCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp   K   &rgb_ug RGB_TOG &kp SEMI &kp SQT     &to 0   &none  &none                                                       &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD	 &none          &none
 &kp LSHFT  &kp Z  &kp X  &to 3  &kp V  &bootloader  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH   &kp RSHFT  &none  &none                                                &none           &rgb_ug RGB_SPI &rgb_ug RGB_SPD &none           &rgb_ug RGB_EFR  &none
-&kp LCTRL &none   &kp LALT  &none  &kp SPACE    &kp SPACE   &none      &kp  RALT  &kp  RCTRL &none  &none &none  &none                               &none            &none           &none &none &none &none      &none
+&kp LCTRL &none   &kp LALT  &none  &kp SPACE    &kp SPACE   &none     &kp  RALT  &kp  RCTRL &none  &none &none  &none                               &none            &none           &none &none &none &none      &none
 			>;
         };
 
