@@ -33,3 +33,6 @@ choice LVGL_COLOR_DEPTH
 endchoice
 
 endif # LVGL
+
+config ZMK_WIDGET_WPM_STATUS
+	default y
