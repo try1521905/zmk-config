@@ -3,10 +3,10 @@
 
 
 
-if BOARD_LELE84
+if BOARD_LELE69
 
 config BOARD
-	default "Lele84"
+	default "Lele69"
 
 if USB
 

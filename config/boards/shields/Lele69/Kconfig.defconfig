@@ -1,7 +1,10 @@
-if SHIELD_LELE84
+if SHIELD_LELE69
 
 config ZMK_KEYBOARD_NAME
-    default "Lele84Keyboard"
+    default "Lele69Keyboard"
+
+config ZMK_SLEEP
+	default n
 endif
 
 if ZMK_DISPLAY

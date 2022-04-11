@@ -46,13 +46,13 @@ jobs:
         id: west-zephyr-export
         with:
           args: 'zephyr-export'
-      - name: West Build (Lele84)
+      - name: West Build (Lele69)
         uses: 'docker://zmkfirmware/zephyr-west-action-arm:latest'
-        id: west-build-Lele84
+        id: west-build-Lele69
         with:
-          args: 'build "-s zmk/app -b Lele84 -- -DSHIELD=Lele84 -DZMK_CONFIG=/github/workspace/config"'
-      - name: Archive (Lele84)
+          args: 'build "-s zmk/app -b Lele69 -- -DSHIELD=Lele69 -DZMK_CONFIG=/github/workspace/config"'
+      - name: Archive (Lele69)
         uses: actions/upload-artifact@v2
         with:
-          name: Lele84
+          name: Lele69
           path: build/zephyr/zmk.uf2
