@@ -1,7 +1,7 @@
 if SHIELD_LELE69
 
 config ZMK_KEYBOARD_NAME
-    default "Lele69Keyboard"
+    default "wtry_keypad"
 
 config ZMK_SLEEP
 	default n
