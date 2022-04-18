@@ -1,5 +1,6 @@
 if SHIELD_LELE69
 
+
 config ZMK_KEYBOARD_NAME
     default "wtry_keypad"
 
